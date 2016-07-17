@@ -1,0 +1,19 @@
+{
+  "name": "hyperterm-snazzy",
+  "version": "0.0.0",
+  "description": "Snazzy HyperTerm theme",
+  "license": "MIT",
+  "repository": "sindresorhus/hyperterm-snazzy",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "hyperterm",
+    "hyperterm-theme"
+  ]
+}
