@@ -1,13 +1,13 @@
-# hyperterm-snazzy
+# hyper-snazzy
 
-> Snazzy [HyperTerm](https://hyperterm.org) theme
+> Snazzy [Hyper](https://hyper.is) theme
 
 ![](screenshot.png)
 
 
 ## Install
 
-Add `hyperterm-snazzy` to the plugins list in your `~/.hyperterm.js` config file.
+Add `hyper-snazzy` to the plugins list in your `~/.hyper.js` config file.
 
 
 ## Tip
