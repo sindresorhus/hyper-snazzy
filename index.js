@@ -36,5 +36,13 @@ exports.decorateConfig = config => Object.assign({}, config, {
 		.tab_active:before {
 			border-color: rgba(255, 106, 193, 0.25);
 		}
+		.term_fit:not(.term_term) {
+			opacity: 0.6;
+		}
+		.term_fit.term_active {
+			opacity: 1;
+			transition: opacity 0.12s ease-in-out;
+			will-change: opacity;
+		}
 	`
 });
