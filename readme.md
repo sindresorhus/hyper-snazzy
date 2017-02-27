@@ -7,7 +7,7 @@
 
 ## Install
 
-Add `hyper-snazzy` to the plugins list in your `~/.hyper.js` config file.
+Add `hyper-snazzy` to the plugins list in your `~/.hyper.js` config file and restart Hyper.
 
 
 ## Tip
