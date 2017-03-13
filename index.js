@@ -1,6 +1,7 @@
 'use strict';
 const foregroundColor = '#eff0eb';
 const backgroundColor = '#282a36';
+const backgroundContrastColor = '#3b3d48';
 const red = '#ff5c57';
 const green = '#5af78e';
 const yellow = '#f3f99d';
@@ -51,6 +52,14 @@ exports.decorateConfig = config => Object.assign({}, config, {
 			opacity: 1;
 			transition: opacity 0.12s ease-in-out;
 			will-change: opacity;
+		}
+
+		.header_header {
+			background-color: ${backgroundContrastColor};
+		}
+
+		.tab_active {
+			background-color: ${backgroundColor};
 		}
 	`
 });
