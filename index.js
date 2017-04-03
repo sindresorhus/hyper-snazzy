@@ -9,7 +9,7 @@ const magenta = '#ff6ac1';
 const cyan = '#9aedfe';
 
 exports.decorateConfig = config => Object.assign({}, config, {
-	backgroundColor,
+	backgroundColor: config.backgroundColor || backgroundColor,,
 	foregroundColor,
 	borderColor: '#222430',
 	cursorColor: '#97979b',
