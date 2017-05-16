@@ -64,6 +64,14 @@ exports.decorateConfig = config => Object.assign({}, config, {
 			transform: scaleX(0);
 		}
 
+		.tab_first {
+			border-left-color: transparent !important;
+		}
+
+		.tab_tab:not(.tab_active) {
+			color: #666;
+		}
+
 		.tab_tab.tab_active::before {
 			transform: scaleX(1);
 			transition: all 200ms cubic-bezier(0.0, 0.0, 0.2, 1);
