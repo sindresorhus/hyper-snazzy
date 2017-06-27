@@ -19,6 +19,7 @@ To get the exact same look as in the screenshot, you need to use the [Pure](http
 
 - [iterm2-snazzy](https://github.com/sindresorhus/iterm2-snazzy) - iTerm2 version
 - [terminal-snazzy](https://github.com/sindresorhus/terminal-snazzy) - Terminal version
+- [konsole-snazzy](https://github.com/miedzinski/konsole-snazzy) - Konsole version
 
 
 ## License
