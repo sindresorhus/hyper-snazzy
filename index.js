@@ -43,7 +43,7 @@ exports.decorateConfig = config => Object.assign({}, config, {
 			border-color: rgba(255, 106, 193, 0.25);
 		}
 
-		.term_fit:not(.term_term) {
+		.term_fit:not(.term_active) {
 			opacity: 0.6;
 		}
 
