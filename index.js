@@ -60,7 +60,6 @@ exports.decorateConfig = config => Object.assign({}, config, {
 			left: 0;
 			right: 0;
 			height: 1px;
-			background-color: rgba(255, 106, 193, 0.4);
 			transform: scaleX(0);
 		}
 
