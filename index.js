@@ -43,11 +43,13 @@ exports.decorateConfig = config => Object.assign({}, config, {
 			border-color: rgba(255, 106, 193, 0.25);
 		}
 
-		.terminal {
+		.terminal,
+		.term_fit:not(.term_term) {
 			opacity: 0.6;
 		}
 
-		.terminal.focus {
+		.terminal.focus,
+		.term_fit.term_active {
 			opacity: 1;
 			transition: opacity 0.12s ease-in-out;
 			will-change: opacity;
