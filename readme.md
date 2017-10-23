@@ -23,7 +23,7 @@ To get the exact same look as in the screenshot, you need to use the [Pure](http
 - [vscode-snazzy](https://github.com/Tyriar/vscode-snazzy) - VS Code version
 - [emacs-snazzy](https://github.com/weijiangan/emacs-snazzy) - Emacs version
 - [termite-snazzy](https://github.com/kbobrowski/termite-snazzy) - Termite version
-- [urxvt-snazzy](https://github.com/olstenlarck/urxvt-xterm-snazzy) - URxvr / XTerm version
+- [urxvt-xterm-snazzy](https://github.com/olstenlarck/urxvt-xterm-snazzy) - URxvr / XTerm version
 
 
 ## License
