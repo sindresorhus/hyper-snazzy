@@ -4,6 +4,7 @@
 
 ![](screenshot.png)
 
+[![Mentioned in Awesome Hyper](https://awesome.re/mentioned-badge.svg)](https://github.com/bnb/awesome-hyper)
 
 ## Install
 
