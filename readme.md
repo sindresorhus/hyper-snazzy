@@ -7,8 +7,9 @@
 
 ## Install
 
-Add `hyper-snazzy` to the plugins list in your `~/.hyper.js` config file and restart Hyper. 
-You can also install it with [hpm](https://github.com/zeit/hpm): `hpm install hyper-snazzy`
+```
+$ hyper install hyper-snazzy
+```
 
 
 ## Tip
