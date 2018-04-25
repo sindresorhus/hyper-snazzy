@@ -1,24 +1,20 @@
 {
-  "name": "hyper-snazzy",
-  "version": "1.2.2",
-  "description": "Elegant Hyper theme with bright colors",
-  "license": "MIT",
-  "repository": "sindresorhus/hyper-snazzy",
-  "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "sindresorhus.com"
-  },
-  "files": [
-    "index.js"
-  ],
-  "keywords": [
-    "hyper",
-    "hyper-theme",
-    "terminal",
-    "term",
-    "theme",
-    "hyperterm",
-    "elegant"
-  ]
+	"name": "hyper-snazzy",
+	"version": "1.2.2",
+	"description": "Elegant Hyper theme with bright colors",
+	"license": "MIT",
+	"repository": "sindresorhus/hyper-snazzy",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "sindresorhus.com"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"hyper",
+		"hyper-theme",
+		"elegant"
+	]
 }
