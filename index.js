@@ -13,6 +13,8 @@ exports.decorateConfig = config => Object.assign({}, config, {
 	foregroundColor,
 	borderColor: '#222430',
 	cursorColor: '#97979b',
+	cursorAccentColor: backgroundColor,
+	selectionColor: 'rgba(151,151,155,0.3)',
 	colors: {
 		black: backgroundColor,
 		red,
@@ -32,29 +34,12 @@ exports.decorateConfig = config => Object.assign({}, config, {
 		lightWhite: foregroundColor
 	},
 	css: `
-		${config.css}
-
 		/* Hide title when only one tab */
 		.tabs_title {
 			display: none !important;
 		}
 
-		.tab_active:before {
-			border-color: rgba(255, 106, 193, 0.25);
-		}
-
-		.terminal,
-		.term_fit:not(.term_term) {
-			opacity: 0.6;
-		}
-
-		.terminal.focus,
-		.term_fit.term_active {
-			opacity: 1;
-			transition: opacity 0.12s ease-in-out;
-			will-change: opacity;
-		}
-
+		/* Add a highlight line below the active tab */
 		.tab_tab::before {
 			content: '';
 			position: absolute;
@@ -64,19 +49,26 @@ exports.decorateConfig = config => Object.assign({}, config, {
 			height: 1px;
 			background-color: rgba(255, 106, 193, 0.4);
 			transform: scaleX(0);
+			will-change: transform;
 		}
-
-		.tab_first {
-			border-left-color: transparent !important;
-		}
-
-		.tab_tab:not(.tab_active) {
-			color: #666;
-		}
-
 		.tab_tab.tab_active::before {
 			transform: scaleX(1);
 			transition: all 200ms cubic-bezier(0.0, 0.0, 0.2, 1);
 		}
+
+		/* Fade the title of inactive tabs and the content of inactive panes */
+		.tab_text,
+		.term_term {
+			opacity: 0.6;
+			will-change: opacity;
+		}
+		.tab_active .tab_text,
+		.term_active .term_term {
+			opacity: 1;
+			transition: opacity 0.12s ease-in-out;
+		}
+
+		/* Allow custom css / overrides */
+		${config.css}
 	`
 });
