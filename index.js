@@ -14,7 +14,7 @@ exports.decorateConfig = config => Object.assign({}, config, {
 	borderColor: '#222430',
 	cursorColor: '#97979b',
 	cursorAccentColor: backgroundColor,
-	selectionColor: 'rgba(151,151,155,0.3)',
+	selectionColor: 'rgba(151, 151, 155, 0.2)',
 	colors: {
 		black: backgroundColor,
 		red,
@@ -53,7 +53,7 @@ exports.decorateConfig = config => Object.assign({}, config, {
 		}
 		.tab_tab.tab_active::before {
 			transform: scaleX(1);
-			transition: all 200ms cubic-bezier(0.0, 0.0, 0.2, 1);
+			transition: all 200ms cubic-bezier(0, 0, 0.2, 1);
 		}
 
 		/* Fade the title of inactive tabs and the content of inactive panes */
