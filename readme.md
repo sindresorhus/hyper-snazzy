@@ -26,6 +26,7 @@ To get the exact same look as in the screenshot, you need to use the [Pure](http
 - [emacs-snazzy](https://github.com/weijiangan/emacs-snazzy) - Emacs version
 - [termite-snazzy](https://github.com/kbobrowski/termite-snazzy) - Termite version
 - [deepin-snazzy](https://github.com/xxczaki/deepin-snazzy) - Linux Deepin terminal version
+- [vim-snazzy](https://github.com/connorholyday/vim-snazzy) - Vim version
 
 
 ## License
