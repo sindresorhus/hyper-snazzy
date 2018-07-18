@@ -28,6 +28,7 @@ To get the exact same look as in the screenshot, you need to use the [Pure](http
 - [deepin-snazzy](https://github.com/xxczaki/deepin-snazzy) - Linux Deepin terminal version
 - [vim-snazzy](https://github.com/connorholyday/vim-snazzy) - Vim version
 - [base16-snazzy](https://github.com/h404bi/base16-snazzy-scheme) - Base16 version
+- [kitty-snazzy](https://github.com/connorholyday/kitty-snazzy) - Kitty version
 
 
 ## License
