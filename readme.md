@@ -31,6 +31,7 @@ To get the exact same look as in the screenshot, you need to use the [Pure](http
 - [kitty-snazzy](https://github.com/connorholyday/kitty-snazzy) - Kitty version
 - [gnome-terminal-snazzy](https://github.com/tobark/hyper-snazzy-gnome-terminal) - Gnome terminal version
 - [urxvt-snazzy](https://github.com/LeonGr/urxvt-snazzy) - Urxvt version
+- [alacritty-snazzy](https://github.com/alebelcor/alacritty-snazzy) - Alacritty version
 
 
 ## License
