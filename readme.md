@@ -32,6 +32,7 @@ To get the exact same look as in the screenshot, you need to use the [Pure](http
 - [gnome-terminal-snazzy](https://github.com/tobark/hyper-snazzy-gnome-terminal) - Gnome terminal version
 - [urxvt-snazzy](https://github.com/LeonGr/urxvt-snazzy) - Urxvt version
 - [alacritty-snazzy](https://github.com/alebelcor/alacritty-snazzy) - Alacritty version
+- [tilix-snazzy](https://github.com/clrxbl/tilix-snazzy) - Tilix version
 
 
 ## License
