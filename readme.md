@@ -33,6 +33,7 @@ To get the exact same look as in the screenshot, you need to use the [Pure](http
 - [urxvt-snazzy](https://github.com/LeonGr/urxvt-snazzy) - Urxvt version
 - [alacritty-snazzy](https://github.com/alebelcor/alacritty-snazzy) - Alacritty version
 - [tilix-snazzy](https://github.com/clrxbl/tilix-snazzy) - Tilix version
+- [terminus-snazzy](https://github.com/ThibzR/terminus-snazzy) - Terminus version
 
 
 ## License
