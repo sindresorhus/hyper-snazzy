@@ -33,6 +33,7 @@ To get the exact same look as in the screenshot, you need to use the [Pure](http
 - [gnome-terminal-snazzy](https://github.com/tobark/hyper-snazzy-gnome-terminal) - Gnome terminal version
 - [urxvt-snazzy](https://github.com/LeonGr/urxvt-snazzy) - Urxvt version
 - [alacritty-snazzy](https://github.com/alebelcor/alacritty-snazzy) - Alacritty version
+- [st-snazzy](https://github.com/Dko1905/st-snazzy) - Simple Terminal version (suckless st)
 - [tilix-snazzy](https://github.com/clrxbl/tilix-snazzy) - Tilix version
 - [terminus-snazzy](https://github.com/ThibzR/terminus-snazzy) - Terminus version
 - [windows-terminal-snazzy](https://github.com/Richienb/windows-terminal-snazzy) - Windows Terminal version
