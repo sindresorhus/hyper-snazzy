@@ -8,7 +8,11 @@
 ## Install
 
 ```
-$ hyper install hyper-snazzy
+hyper install hyper-snazzy
+```
+Note: You may need to run the below command first if you don't have Hyper CLI installed
+```
+sudo ln -sf "/Applications/Hyper.app/Contents/Resources/bin/hyper" "/usr/local/bin/hyper"
 ```
 
 
