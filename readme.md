@@ -38,6 +38,7 @@ To get the exact same look as in the screenshot, you need to use the [Pure](http
 - [terminus-snazzy](https://github.com/ThibzR/terminus-snazzy) - Terminus version
 - [windows-terminal-snazzy](https://github.com/Richienb/windows-terminal-snazzy) - Windows Terminal version
 - [warp-snazzy](https://github.com/GrimLink/warp-theme-snazzy) - Warp version
+- [tmux-snazzy](https://github.com/ivnvxd/tmux-snazzy) - Tmux version
 
 
 ## License
