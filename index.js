@@ -14,7 +14,7 @@ exports.decorateConfig = config => Object.assign({}, config, {
 	borderColor: '#222430',
 	cursorColor: '#97979b',
 	cursorAccentColor: backgroundColor,
-	selectionColor: 'rgba(151, 151, 155, 0.2)',
+	selectionColor: config.selectionColor || 'rgba(151, 151, 155, 0.2)',
 	colors: {
 		black: backgroundColor,
 		red,
